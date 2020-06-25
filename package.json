@@ -1,0 +1,32 @@
+{
+  "name": "trustnet-graph",
+  "version": "1.0.0",
+  "description": "trustnet's graph data structure",
+  "main": "graph.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "$(npm bin)/tape test/*.js | $(npm bin)/tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cblgh/trustnet-graph.git"
+  },
+  "keywords": [
+    "trustnet",
+    "graph",
+    "directed",
+    "graph"
+  ],
+  "author": "cblgh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cblgh/trustnet-graph/issues"
+  },
+  "homepage": "https://github.com/cblgh/trustnet-graph#readme",
+  "devDependencies": {
+    "tape": "^5.0.1",
+    "tap-spec": "^5.0.0"
+  }
+}
